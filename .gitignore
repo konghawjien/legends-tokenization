@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Temporary files
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files (optional, adjust based on your editor)
+.vscode/
+.idea/
+
+# Solidity / Ethereum artifacts
+artifacts/
+cache/
+typechain/
+
+# Hardhat files (if you use Hardhat)
+hh-config.json
+coverage/
